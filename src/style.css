@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.app-container {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+  border: 2px grey dotted;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.counter {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(4, 126, 240);
+}
+.btns {
+  margin: 25px 10px;
+}
+button {
+  margin: 0 10px;
+  height: 40px;
+  padding: 0 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+img {
+  position: absolute;
+  width: 120px;
+  top: -30px;
+  left: -50px;
+  z-index: -1;
+}
